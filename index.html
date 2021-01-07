@@ -476,9 +476,14 @@
                 padding-bottom: 0;
             } 
            .col4,.cont_accord,.accordion, .w3-container{
-            padding:0;
-            margin:0;
-            width: auto;
+                padding:0;
+                margin:0;
+                width: auto;
+           }
+            .bot{
+               top:0;
+               padding: 5px;
+               position: fixed;
            }
             span{
                 color: rgb(8, 140, 248);
@@ -519,6 +524,13 @@
                     font-size: 1.5rem;
                 }
                 
+            }
+            @media screen and (min-height:645px){
+                .container-fluid{
+                    height:100vh;
+                    overflow: hidden;
+                   
+                }
             }
 
             @media screen and (max-width: 544px){
